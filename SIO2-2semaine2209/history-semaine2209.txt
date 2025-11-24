@@ -1,0 +1,216 @@
+ 1669  git add .
+ 1670  git commit -m "Correction TP-Ete"
+ 1671  git push
+ 1672  git status
+ 1673  git fetch
+ 1674  git pull
+ 1675  git branch
+ 1676  more .gitignore 
+ 1677  git status
+ 1678  git add .
+ 1679  git commit -m "Configuration et Arborescence Laravel"
+ 1680  git push
+ 1681  cd ..
+ 1682  cd stationEssence/
+ 1683  ls
+ 1684  clear
+ 1685  cd ..
+ 1686  sudo apt install composer 
+ 1687  sudo apt autoremove 
+ 1688  "exit
+ 1689  exit
+ 1690  cd ../stationEssence/
+ 1691  php artisan route:list
+ 1692  more /etc/apt/sources.list
+ 1693  more /etc/apt/sources.list.d/official-package-repositories.list 
+ 1694  cd Documents/AFTEC2526/SIO2/
+ 1695  git clone https://3faceme@bitbucket.org/3faceme/laravel-project.git
+ 1696  cd tp-ete/
+ 1697  ls -a
+ 1698  cd .git/
+ 1699  ls
+ 1700  more config 
+ 1701  cd ..
+ 1702  cd fichiers-cours/
+ 1703  more .git/config 
+ 1704  ls
+ 1705  cd tp-ete/
+ 1706  ls
+ 1707  ls .git/config 
+ 1708  more .git/config 
+ 1709  cd ../laravel-project/
+ 1710  nano .git/config 
+ 1711  ls -a
+ 1712  composer create-project --prefer-dist laravel/laravel laravel-project
+ 1713  ls
+ 1714  git branch
+ 1715  cd ..
+ 1716  git branch
+ 1717  ls
+ 1718  ls laravel-project/
+ 1719  cd laravel
+ 1720  cd laravel-project/
+ 1721  git status
+ 1722  git branch
+ 1723  cd ..
+ 1724  rm -fr laravel-project/
+ 1725  git clone https://3faceme@bitbucket.org/3faceme/laravel-project.git
+ 1726  ls
+ 1727  cd laravel-project/
+ 1728  ls
+ 1729  ls -a
+ 1730  nano .git/config 
+ 1731  composer create-project --prefer-dist laravel/laravel laravel-project
+ 1732  ls
+ 1733  cp -R laravel-project/*  ./
+ 1734  ls
+ 1735  ls -a laravel-project/
+ 1736  ls -a 
+ 1737  ls -a laravel-project/
+ 1738  cp -R laravel-project/.*  ./
+ 1739  ls -a 
+ 1740  rm -fr laravel-project/
+ 1741  php artisan serv
+ 1742  git branch
+ 1743  nano .gitignore 
+ 1744  gls
+ 1745  ls
+ 1746  git add .
+ 1747  git commit -m "First Push"
+ 1748  git push
+ 1749  git status
+ 1750  git checkout teo
+ 1751  ls
+ 1752  git checkout Lise
+ 1753  ls
+ 1754  git status
+ 1755  git fetch
+ 1756  git pull
+ 1757  ls
+ 1758  git branch
+ 1759  ls
+ 1760  cd myProject/
+ 1761  ls
+ 1762  git checkout Maxime 
+ 1763  git branch
+ 1764  ls
+ 1765  cd ..
+ 1766  git branch
+ 1767  ls
+ 1768  git fetch
+ 1769  git pull
+ 1770  exit
+ 1771  cd Documents/AFTEC2526/SIO2/fichiers-cours/
+ 1772  git status
+ 1773  git fetch
+ 1774  git pull
+ 1775  git add .
+ 1776  git commit -m "Artisan, Migration, Seeder, Factory, Tinker"
+ 1777  git push
+ 1778  sudo systemctl status mysql
+ 1779  sudo mysql -u root -p
+ 1780  sudo systemctl status mysql
+ 1781  exit
+ 1782  git status
+ 1783  git checkout main
+ 1784  git status 
+ 1785  git fetch
+ 1786  git merge
+ 1787  more .git/config 
+ 1788  clear
+ 1789  ls 
+ 1790  more artisan 
+ 1791  ls
+ 1792  ls -R | grep autoload
+ 1793  php artisan
+ 1794  php artisan list
+ 1795  php artisan tinker
+ 1796  php artisan cache:clear
+ 1797  php artisan route:list
+ 1798  php artisan help make:controller
+ 1799  php artisan --help make:controller
+ 1800  php artisan --help 
+ 1801  php artisan --help php artisan migrate
+ 1802  php artisan --help artisan migrate
+ 1803  php artisan --help migrate
+ 1804  php artisan --help make
+ 1805  php artisan --help make:controller
+ 1806  php artisan -h make:controller
+ 1807  php artisan migrate
+ 1808  php artisan make:migration create_entites_table
+ 1809  clear
+ 1810  php artisan migrate:rollback
+ 1811  php artisan migrate
+ 1812  php artisan migrate:rollback
+ 1813  php artisan migrate
+ 1814  php artisan -h migrate
+ 1815  php artisan -h migrate:refresh
+ 1816  php artisan migrate:rollback
+ 1817  php artisan config:clear
+ 1818  php artisan cache:clear
+ 1819  composer update
+ 1820  php artisan migrate
+ 1821  sudo php artisan migrate
+ 1822  php artisan migrate
+ 1823  php artisan migrate:rollback
+ 1824  php artisan migrate
+ 1825  php artisan make:seeder EntiteSeeder
+ 1826  php artisan db:seed --class=EntiteSeeder
+ 1827  php artisan db:seed
+ 1828  clear
+ 1829  php artisan db:seed
+ 1830  php artisan migrate:rollback
+ 1831  php artisan migrate --seed
+ 1832  php artisan seed
+ 1833  php artisan serve
+ 1834  exit
+ 1835  cd Documents/AFTEC2526/SIO2/
+ 1836  git clone https://FDGez:ATATT3xFfGF0Oc_5x4ZcxzE0h2M5iAywj_28hozytRdKGJjql0bNiUtIgSdJR--I7AJrJcA77hykvSPsa9HbRz1SS_BID3aig_1BLRR3UpXkUTHKVFE-HYmaZzkFDgYcaHwCp6qZNLnnS7izvOU6ZahaYVQ0KfzQz78FiYlULcMZhsoKqjQuHDI=DA2F9153@bitbucket.org/3faceme/laravel-project.git
+ 1837  cd laravel-project
+ 1838  ls
+ 1839  ls ../
+ 1840  cd .git/
+ 1841  ls
+ 1842  nano config 
+ 1843  cd ..
+ 1844  ls
+ 1845  ls -a
+ 1846  composer update
+ 1847  ls
+ 1848  cp .env.example .env
+ 1849  sudo mysql -u root
+ 1850  sudo service mysql status
+ 1851  sudo apt install mysql-server
+ 1852  sudo mysql -u root -p
+ 1853  sudo service mysql restart
+ 1854  sudo service mysql status
+ 1855  sudo apt install php-mysql
+ 1856  composer update
+ 1857  php artisan migrate
+ 1858  php artisan serve
+ 1859  php artisan key:generate
+ 1860  php artisan serve
+ 1861  git status
+ 1862  git fetch
+ 1863  git pull
+ 1864  nano .gitignore 
+ 1865  git add .
+ 1866  git commit -m "Laravel initial configuré pour MySQL"
+ 1867  git push
+ 1868  git gain
+ 1869  git branch
+ 1870  git diff
+ 1871  php artisan db:seed 
+ 1872  php artisan make:factory EntiteFactory
+ 1873  --model=Entite
+ 1874  php artisan make:factory EntiteFactory --model=Entite
+ 1875  php artisan make:model Entite
+ 1876  php artisan db:seed --class=EntiteSeeder
+ 1877  clear
+ 1878  php artisan tinker
+ 1879  cd ..
+ 1880  ls
+ 1881  ls laravel-project
+ 1882  ls laravel-project*
+ 1883  clear
+ 1884  ls laravel-project*

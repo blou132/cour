@@ -1,0 +1,184 @@
+- Mise en oeuvre de la migration du code dans le serveur (avec git déjà opérationnel)
+- Utiliser l'exercice Blade pour développer votre front-end
+- Implémenter une Factory (Faker), implémenter un Seeder pour vos tests à venir, pour la création d'utilisateur Admin
+- Trouver une solution pour implémenter des rôles (avec des permissions) -> Auteur ou Redacteur, Admin, Lecteur
+- Concernant les utilisateurs, utiliser User? 
+- Création de modèles supplémentaires et attribution de clés étrangères (Model et Migration)
+- Installer, Configurer et Utiliser phpmyadmin
+
+Après le TP:
+- Authentification en Laravel
+
+    1  ip qddr
+    2  sudo loadkeys fr
+    3  ip addr
+    4  sudo nan /etc/netplan/50-cloud-init.yaml 
+    5  sudo nano /etc/netplan/50-cloud-init.yaml 
+    6  sudo systemctl restart networking
+    7  sudo systemctl restart networks
+    8  sudo reboot
+    9  ip addr
+   10  sudo ip link set enp0s8 up
+   11  sudo loadkeys fr
+   12  sudo ip link set enp0s8 up
+   13  ip addr
+   14  sudo netplan apply
+   15  sudo nano /etc/netplan/50-cloud-init.yaml 
+   16  sudo netplan apply
+   17  sudo nano /etc/netplan/50-cloud-init.yaml 
+   18  ip addr
+   19  sudo apt update
+   20  ping google.com
+   21  ping www.google.com
+   22  ping 8.8.8.8
+   23  sudo apt install ping
+   24  sudo apt install iputils-ping
+   25  ping 8.8.8.8
+   26  ping www.google.com
+   27  sudo poweroff
+   28  exit
+   29  ip
+   30  ip addr
+   31  exit
+   32  ip addr
+   33  poweroff
+   34  sudo poweroff
+   35  ip addr
+   36  sudo nano /etc/netplan/50-cloud-init.yaml 
+   37  sudo systemctl restart network
+   38  sudo systemctl restart networking
+   39  sudo systemctl restart networks
+   40  sudo systemctl restart netplan
+   41  sudo systemctl restart networkmanager
+   42  sudo systemctl restart NetworkManager
+   43  sudo systemctl restart NetworkManager.service
+   44  sudo ifup enp0s9
+   45  sudo ifconfig enp0s9 up
+   46  sudo ip link enp0s9 up
+   47  sudo ip link enp0s8 up
+   48  sudo ip link set enp0s8 up
+   49  sudo ip addr
+   50  sudo ip link set enp0s9 up
+   51  sudo ip addr
+   52  sudo reboot
+   53  sudo loadkeys fr
+   54  ip addr
+   55  sudo systemctl status ssh
+   56  sudo systemctl start ssh
+   57  sudo systemctl status ssh
+   58  sudo loadkeys fr
+   59  sudo systemctl start ssh
+   60  sudo systemctl status ssh
+   61  sudo ip addr
+   62  sudo ip link set enp0s9 up
+   63  sudo ip link set enp0s8 up
+   64  sudo ip addr
+   65  sudo ip link set enp0s3 up
+   66  sudo ip addr
+   67  sudo poweroff
+   68  sudo loadkeys fr
+   69  sudo ip addr
+   70  sudo nano /etc/netplan/50-cloud-init.yaml 
+   71  sudo ip link set enp0s17 up
+   72  sudo ip addr
+   73  sudo ip link set enp0s8 up
+   74  sudo ip addr
+   75  sudo ip link set enp0s9 up
+   76  sudo ip addr
+   77  sudo poweroff
+   78  sudo nano /etc/netplan/50-cloud-init.yaml 
+   79  sudo loadkeys fr
+   80  sudo nano /etc/netplan/50-cloud-init.yaml 
+   81  sudo ip addr
+   82  sudo ip link set enp0s17 up
+   83  sudo ip addr
+   84  sudo ip link set enp0s9 up
+   85  sudo ip link set enp0s8 up
+   86  sudo ip addr
+   87  sudo nano /etc/netplan/50-cloud-init.yaml 
+   88  sudo reboot
+   89  sudo loadkeys fr
+   90  sudo ip addr
+   91  sudo nano /etc/netplan/50-cloud-init.yaml 
+   92  sudo ip addr
+   93  sudo ip link set enp0s9 up
+   94  sudo ip addr
+   95  sudo reboot
+   96  sudo ip addr
+   97  netstat -rn | grep 0.0.0.0
+   98  sudo apt install net-tools
+   99  netstat -rn | grep 0.0.0.0
+  100  ip route show
+  101  sudo nano /etc/netplan/50-cloud-init.yaml 
+  102  sudo ip link set enp0s9 down
+  103  sudo ip link set enp0s9 up
+  104  sudo ip addr
+  105  ping 192.168.1.74
+  106  ssh osboxes@192.168.1.74
+  107  clear
+  108  sudo systemctl status apache2
+  109  sudo systemctl status nginx
+  110  sudo ip link set enp0s9 down
+  111  sudo nano /etc/netplan/50-cloud-init.yaml 
+  112  sudo netplan apply
+  113  sudo nano /etc/netplan/50-cloud-init.yaml 
+  114  sudo nano /etc/cloud/cloud.cfg.d/
+  115  sudo nano /etc/netplan/50-cloud-init.yaml 
+  116  dhclient -4 enp0s9
+  117  sudo nano /etc/netplan/50-cloud-init.yaml 
+  118  sudo ip addr
+  119  sudo ip link set enp0s9 down
+  120  sudo ip addr
+  121  sudo ip link set enp0s9 up
+  122  sudo ip addr
+  123  ping 192.168.1.200
+  124  date
+  125  timedatectl 
+  126  sudo timedatectl set-timezone Europe/Paris
+  127  timedatectl 
+  128  ping 192.168.1.200
+  129  ip route show
+  130  sudo nano /etc/netplan/50-cloud-init.yaml 
+  131  sudo ip link set enp0s9 down
+  132  sudo ip link set enp0s9 up
+  133  ip route show
+  134  sudo ip addr
+  135  ping 192.168.1.200
+  136  history
+  137  netstat -rn | grep 0.0.0.0
+  138  sudo nano /etc/netplan/50-cloud-init.yaml 
+  139  netstat -rn | grep 0.0.0.0
+  140  sudo ip link set enp0s9 down
+  141  sudo ip link set enp0s9 up
+  142  sudo ip addr
+  143  ping 192.168.1.156
+  144  sudo apt install nginx
+  145  sudo systemctl restart nginx
+  146  sudo nano /etc/netplan/50-cloud-init.yaml 
+  147  sudo ip link set enp0s9 down
+  148  sudo ip link set enp0s9 up
+  149  sudo ip addr
+  150  ping 192.168.1.111
+  151  sudo systemctl status nginx
+  152  sudo systemctl restart nginx
+  153  sudo ip addr
+  154  netstat -rn | grep 0.0.0.0
+  155  sudo reboot
+  156  netstat -rn | grep 0.0.0.0
+  157  sudo ip addr
+  158  sudo systemctl restart nginx
+  159  netstat -rn | grep 0.0.0.0
+  160  sudo nano /etc/netplan/50-cloud-init.yaml 
+  161  sudo ip link set enp0s9 down
+  162  sudo ip link set enp0s9 up
+  163  sudo ip addr
+  164  netstat -rn | grep 0.0.0.0
+  165  sudo reboot
+  166  sudo apt update
+  167  sudo apt upgrade
+  168  sudo ip addr
+  169  ping 192.168.1.11
+  170  ping 192.168.1.111
+  171  sudo reboot
+  172  history
+  173  history > history_userver.txt

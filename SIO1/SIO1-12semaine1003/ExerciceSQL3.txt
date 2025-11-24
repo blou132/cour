@@ -1,0 +1,40 @@
+Soit les tables suivantes:
+
+Table A
++-----+------------+----------+
+| idA | colA       | colB     |
++-----+------------+----------+
+|   1 | Accounting | New York |
+|   2 | Research   | Dallas   |
+|   3 | Sales      | Chicago  |
+|   4 | Operations | Boston   |
++-----+------------+----------+
+
+
+Table B
++-----+----------+-----------+------+
+| idB | colA     | colB      | idA  |
++-----+----------+-----------+------+
+|   1 | John     | CLERK     |    4 |
+|   2 | Matthew  | SALESMAN  |    5 |
+|   3 | David    | SALESMAN  |    3 |
+|   4 | Joanne   | MANAGER   |    6 |
+|   5 | Victoria | MANAGER   |    1 |
+|   6 | John     | MANAGER   |    4 |
+|   7 | David    | ANALYST   |    2 |
+|   8 | Bob      | PRESIDENT |    3 |
+|   9 | Erick    | SALESMAN  |    6 |
++-----+----------+-----------+------+
+
+Faire l'ensemble des requêtes SQL join présentées dans le diagramme de la page 5 de 2.1D-LangageSQL.pdf:
+
+LEFT JOIN
+RIGHT JOIN
+LEFT JOIN Exclusif
+RIGHT JOIN Exclusif
+INNER JOIN
+FULL OUTER JOIN (en utilisant LEFT JOIN UNION RIGHT JOIN)
+FULL OUTER JOIN Exclusif (en utilisant LEFT JOIN UNION RIGHT JOIN)
+
+Utilisez MySQL pour faire cette exercice
+

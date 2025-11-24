@@ -1,0 +1,14 @@
+Article intéressant:
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
+Config MySQL pour Laravel avec root:
+sudo mysql -u root
+mysql> USE mysql;
+mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+mysql> FLUSH PRIVILEGES;
+mysql> exit;
+service mysql restart
+
+FYI: 
+mysql_secure_installation
+arecord -vv -fdat out.wav | recordmydesktop --width 1280 --height 720 --full-shots --fps 25  --delay 5

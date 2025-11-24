@@ -1,0 +1,94 @@
+### Exercice 1: Structure de base
+
+**Description:** Créez la structure de base d'un document HTML avec un titre "Ma Page Web".
+
+**Objectif:**
+
+1. Créer la structure de base.
+2. Ajouter un titre au document.
+
+
+### Exercice 2: Titres et paragraphes
+
+**Description:** Ajoutez un titre de niveau 1 et un paragraphe sous le titre dans le corps du document.
+
+**Objectif:**
+
+1. Ajouter un titre `<h1>`.
+2. Ajouter un paragraphe `<p>`.
+
+
+### Exercice 3: Liens hypertextes
+
+**Description:** Ajoutez un lien hypertexte qui pointe vers "https://www.example.com" avec le texte "Visitez Example".
+
+**Objectif:**
+
+1. Ajouter un lien hypertexte `<a>`.
+
+
+### Exercice 4: Images
+
+**Description:** Ajoutez une image avec la source "image.jpg" et un texte alternatif "Une belle image".
+
+**Objectif:**
+
+1. Ajouter une image `<img>`.
+
+
+### Exercice 5: Listes
+
+**Description:** Ajoutez une liste à puces avec trois éléments : "HTML", "CSS" et "JavaScript".
+
+**Objectif:**
+
+1. Ajouter une liste à puces `<ul>`.
+2. Ajouter des éléments de liste `<li>`.
+
+### Exercice 6: Tableaux
+
+**Description:** Créez un tableau avec deux colonnes et deux lignes. La première ligne doit contenir les en-têtes "Nom" et "Âge". La deuxième ligne doit contenir les données "Alice" et "25".
+
+**Objectif:**
+
+1. Ajouter un tableau `<table>`.
+2. Ajouter des lignes `<tr>` et des cellules `<th>` et `<td>`.
+
+
+### Exercice 7: Formulaires
+
+**Description:** Créez un formulaire avec un champ de texte pour le nom, un champ de courriel et un bouton de soumission.
+
+**Objectif:**
+
+1. Ajouter un formulaire `<form>`.
+2. Ajouter des champs de texte `<input>` et un bouton de soumission `<button>`.
+
+
+### Exercice 8: Métadonnées
+
+**Description:** Ajoutez des métadonnées pour l'auteur de la page et une description de la page dans la section `<head>`.
+
+**Objectif:**
+
+1. Ajouter des balises `<meta>`.
+
+
+### Exercice 9: Vidéo et audio
+
+**Description:** Ajoutez une vidéo avec la source "video.mp4" et des contrôles de lecture.
+
+**Objectif:**
+
+1. Ajouter une balise `<video>`.
+
+
+### Exercice 10: Iframes
+
+**Description:** Ajoutez une iframe qui affiche "https://www.example.com".
+
+**Objectif:**
+
+1. Ajouter une balise `<iframe>`.
+
+
